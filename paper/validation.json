@@ -11,7 +11,7 @@
     "pyproject.toml": "64e2510cc5e80cedf0f00febc62f733b0836e68150c6915f9dcf19de964b7cdf",
     "src/gapsmooth/__init__.py": "c092ed8b1ddea687e9c77c032d2d2f99651677e865d695c32c823cb4594c7601",
     "src/gapsmooth/cli.py": "eac36ba26ca2cd0bde9acfb9dd9f54c41e774ea022cc719c50b2a8a548740bea",
-    "src/gapsmooth/experiments.py": "e7ab4eb11dab88a5f9b5fe20df2431ab6eefa62e12d4a4d7e1a2c444e0a32aa0",
+    "src/gapsmooth/experiments.py": "9d5716f40f730e4789c21d29f1f668abd91d396d09c48570cbe07e53f8f19795",
     "src/gapsmooth/inference.py": "cd6d6254c39a0c0096e902092e546292d65ce33a78c6540ea878e2373008b271",
     "src/gapsmooth/model.py": "48a1bf731ae862d2b08baf11c36a87f52fbee9462f3995272cdd34f5988d4d74",
     "src/gapsmooth/reference.py": "a47184a81d7bc561b4a0afd2d8279a257274a6d4d976ed05cec60cf5fca9aafd",
@@ -23,7 +23,7 @@
     "examples/results/outage.pdf": "10507c723ddb3e4ffe5623862e0f54859de4c1af02a94d12b7a1fc9df91faa33",
     "examples/results/outage.png": "b68693a1333c1e7eecd6ec84b746588785e79004c9f97848cfb7c9f626ce99b6",
     "examples/results/refinement.pdf": "fe269ef9439ed557f751f1f1a10c4bc5a40308c011a308f19d10491429ca1867",
-    "examples/results/trace.csv": "bd41bb2a1723c81515f7900199f78dc80a835492b1e27f234d0e831b629ecbd7"
+    "examples/results/trace.csv": "f3f4845196ecd482e0cab65d7d40405c9dea90a98d88b0e6db39888eaa9021ce"
   },
-  "pdf_sha256": "edee38e770cfd28bc07657058cae9a8ecd4d6ba6738ed4e303936eeccae521e0"
+  "pdf_sha256": "2c6e37b12f231f5f5a137dfe5634b21070be1591bc0e039bcd27fdc0593584da"
 }

@@ -43,14 +43,15 @@ def run_study(output, trials=256):
             np.sqrt(est.smoothed_covariance[:, 0, 0]),
         ]
     )
-    np.savetxt(
-        out / "trace.csv",
-        trace,
-        delimiter=",",
-        fmt="%.17g",
-        comments="",
-        header="t,x_true,v_true,y,x_filter,v_filter,x_smooth,v_smooth,sd_filter,sd_smooth",
-    )
+    with (out / "trace.csv").open("w", encoding="utf-8", newline="\n") as stream:
+        np.savetxt(
+            stream,
+            trace,
+            delimiter=",",
+            fmt="%.17g",
+            comments="",
+            header="t,x_true,v_true,y,x_filter,v_filter,x_smooth,v_smooth,sd_filter,sd_smooth",
+        )
 
     # Independent trajectories at ONE fixed time: no false independence of time samples.
     nees_f, nees_s, covered_f, covered_s = [], [], [], []
